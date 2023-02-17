@@ -1,19 +1,19 @@
 include mixins
-include ../../components/ui/button/button.pug
+include Components/ui/button/button.pug
 
 html(lang="ru")
     head
         meta(name="description", content="Space Techology CP")
         meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
-        link(href=require("../../assets/styles/styles.scss") rel="stylesheet")
+        link(href=require("Assets/styles/styles.scss") rel="stylesheet")
         title Space Techology CP
     body
         .root 
-            include ../../components/header/header.pug
+            include Components/header/header.pug
             main.page
-                include ../../components/enjoying-space/enjoying-space.pug
-                include ../../components/visit/visit.pug
-                include ../../components/experience/experience.pug
-                include ../../components/subscribe/subscribe.pug
-            include ../../components/footer/footer.pug
+                include Components/enjoying-space/enjoying-space.pug
+                include Components/visit/visit.pug
+                include Components/experience/experience.pug
+                include Components/subscribe/subscribe.pug
+            include Components/footer/footer.pug
         script(src=require("./main.js"))
