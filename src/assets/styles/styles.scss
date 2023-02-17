@@ -39,12 +39,15 @@ h5{
 }
 
 .root{
-    background: $color-bg-linear;
     display: flex;
     flex-direction: column;
 }
 /* COMPONENTS */
+@import "Components/logo/logo.scss";
+
 @import "Components/header/header.scss";
+@import "Components/header/nav/nav.scss";
+
 @import "Components/hero/hero.scss";
 @import "Components/enjoying-space/enjoying-space.scss";
 @import "Components/visit/visit.scss";

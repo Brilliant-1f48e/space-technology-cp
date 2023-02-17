@@ -1,0 +1,16 @@
+.nav{
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        a{
+            color: $color-white;
+            font-weight: $fw-medium;
+            line-height: 21px;
+            transition: .3s;
+
+            &:hover{color: $color-orange;}
+        }
+    }
+}
